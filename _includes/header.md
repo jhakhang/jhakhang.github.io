@@ -15,6 +15,17 @@
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/aos.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
     <link rel="icon" href="{{site.baseurl}}/assets/images/logo-title-sm.png">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B86YRDLTZ4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-B86YRDLTZ4');
+</script>
+
   </head>
   <body>
   
