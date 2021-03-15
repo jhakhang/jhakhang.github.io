@@ -11,8 +11,7 @@
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/jquery-ui.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelementplayer.min.css">
-    <link rel="stylesheet" href="{{}}/assets/css/mediaelementplayer.min.css">
+    <link rel="stylesheet" href="{{}}/assets/css/mediaelementplayer.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/aos.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
     <link rel="icon" href="{{site.baseurl}}/assets/images/logo-title-sm.png">
