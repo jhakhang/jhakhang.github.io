@@ -965,17 +965,22 @@ a {
 vertical-align: baseline;
 }
 audio{width:100%;
-background:#f23a2e;
+background: linear-gradient(0deg, rgba(100,194,220,1) 0%, rgba(211,237,210,1) 89%, rgba(254,233,191,1) 100%);
+
+border-radius: 10px;
 }
 
 audio::-webkit-media-controls-panel{
-  background-color:#f23a2e;
+  background: linear-gradient(0deg, rgba(100,194,220,1) 0%, rgba(211,237,210,1) 89%, rgba(254,233,191,1) 100%);
+
   color:white;
 }
-audio::-webkit-media-controls-play-button
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-mute-button
 {
 
 }
+audio::-webkit-media-controls-volume-slider-container{background:blue;color:red;}
 /*
 audio::-webkit-media-controls-panel
 
