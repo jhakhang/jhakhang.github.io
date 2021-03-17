@@ -458,7 +458,7 @@ a {
   .site-blocks-cover .player {
     position: absolute;
     bottom: -250px;
-    width: 100%; }
+    width: 90%; }
   .site-blocks-cover, .site-blocks-cover .row {
     min-height: 600px;
     height: calc(100vh); }
