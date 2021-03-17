@@ -29,7 +29,7 @@ layout: post
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-12 text-center">
-            <h2 class="font-weight-bold text-black">Related Podcasts</h2>
+            <h2 class="font-weight-bold">Related Podcasts</h2>
           </div>
         </div>
         {% include related-posts.md %}

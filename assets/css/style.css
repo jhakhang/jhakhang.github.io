@@ -1,4 +1,5 @@
 /* Base */
+/*
 @font-face {
     font-family: 'monlam2';
     src: url('fonts/monlam-uni-ouchan2-webfont.woff2') format('woff2'),
@@ -7,11 +8,26 @@
     font-weight: normal;
     font-style: normal;
 }
+*/
+@font-face{
+font-family:"monlam2";
+src: url("fonts/Monlam-Uni-OuChan2.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+font-family:"monlam2";
+src: url("fonts/Monlam-Uni-OuChan2.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   line-height: 1.7;
   color: #4d4d4d;
   font-weight: 200;
-  font-size: 1.1rem; }
+  font-size: 1.1rem; 
+}
 
 ::-moz-selection {
   background: #000;
@@ -1013,3 +1029,10 @@ audio::-webkit-media-controls-return-to-realtime-button
 audio::-webkit-media-controls-toggle-closed-captions-button{
 
 */
+.container,
+.site-mobile-menu-body{
+  font-family: monlam2;
+}
+.site-section {
+   font-size: 22px;
+}
