@@ -17,6 +17,7 @@
                       </li>
                     </ul>
                   </li>
+                  <li><a href="about.html">ངའི་སྐོར།</a></li>
                   <li class="has-children">
                     <a href="#">Dropdown</a>
                     <ul class="dropdown arrow-top">
@@ -25,7 +26,5 @@
                       <li><a href="#">Menu Three</a></li>
                     </ul>
                   </li>
-                  <li><a href="about.html">ངའི་སྐོར།</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                </ul>
+               </ul>
             </nav>
