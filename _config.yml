@@ -4,7 +4,8 @@
 title: Jakhnag
 web-url: 
 description: "Jakhang Podcast"
-author: dawa
+author: jhakhang
+email: jakhang@gmail.com
 lang: bo
 copyright: "&#xA9; 2020"
 
@@ -19,6 +20,7 @@ itunesname: jakhang
 itunesemail: jakhang@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 github_username: 
+
 
 permalink: /:year/:title.html
 paginate: 5
