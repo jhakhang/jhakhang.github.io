@@ -20,7 +20,7 @@
 			<itunes:name>{{ site.author }}</itunes:name>
 			<itunes:email>{{ site.email }}</itunes:email>
 		</itunes:owner>
-        <itunes:image href="{{ site.web-url }}/assets/images/icon-lg.png" />
+        <itunes:image href="{{ site.web-url }}/{{post.cover}}" />
 		<itunes:category text="Society &amp; Culture" />
         <itunes:category text="Education">
             <itunes:category text="Society" />
@@ -34,7 +34,7 @@
             <itunes:author>{{ site.author }}</itunes:author>
             <itunes:subtitle>{{ site.title | xml_escape }}: {{ post.title | xml_escape }}</itunes:subtitle>
             <itunes:summary>{{ post.description | xml_escape }}</itunes:summary>
-            <itunes:image href="{{site.web-url}}/assets/images/{{post.cover}}" />
+            <itunes:image href="{{site.web-url}}/{{post.cover}}" />
             <enclosure url="{{site.web-url}}{{ post.file }}" length="{{ post.length }}" type="audio/mp3"/>
             <guid isPermaLink="true">{{ site.web-url }}{{ site.baseurl }}{{ post.url }}</guid>
             <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
