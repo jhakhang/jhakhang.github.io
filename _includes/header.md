@@ -7,6 +7,7 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{site.web-url}}{{page.url}}">
 <meta property="og:title" content="{{page.title}}">
+<meta property="og:audio" content="{{page.audio}}">
 <meta property="og:description" content="{{page.intro}}">
 <meta property="og:image" content="{{page.banner}}">
 
@@ -14,6 +15,7 @@
 <meta property="twitter:card" content="{{page.banner}}">
 <meta property="twitter:url" content="{{site.web-url}}{{page.url}}">
 <meta property="twitter:title" content="{{page.title}}">
+<meta property="twitter:audio" content="{{page.audio}}">
 <meta property="twitter:description" content="{{page.intro}}">
 <meta property="twitter:image" content="{{page.banner}}">
 
