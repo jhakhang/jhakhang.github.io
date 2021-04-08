@@ -12,9 +12,10 @@
 <meta property="og:image" content="{{page.banner}}">
 
 <!-- Twitter -->
-<meta property="twitter:card" content="{{page.banner}}">
+<meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="{{site.web-url}}{{page.url}}">
 <meta property="twitter:title" content="{{page.title}}">
+<meta property="twitter:player" content="{{page.audio}}">
 <meta property="twitter:description" content="{{page.intro}}">
 <meta property="twitter:image" content="{{page.banner}}">
 <!-- Twitter  Ends-->
