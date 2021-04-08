@@ -24,6 +24,9 @@ layout: post
         <div class="col-md-7">
           {{content}}
         </div>
+        <div class="col-md-7">
+           {% include disqus.md %}
+        </div>
       </div>
     </div>
     <div class="site-section bg-light">
