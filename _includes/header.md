@@ -14,6 +14,7 @@
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="{{site.web-url}}{{page.url}}">
+<meta property="twitter:creator" content="{{site.author}}">
 <meta property="twitter:title" content="{{page.title}}">
 <meta property="twitter:player" content="{{page.audio}}">
 <meta property="twitter:description" content="{{page.intro}}">
