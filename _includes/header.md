@@ -9,7 +9,7 @@
 <meta property="og:title" content="{{page.title}}">
 <meta property="og:audio" content="{{page.audio}}">
 <meta property="og:description" content="{{page.intro}}">
-<meta property="og:image" content="{{page.banner}}">
+<meta property="og:image" content="{{site.web-url}}{{page.banner}}">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
