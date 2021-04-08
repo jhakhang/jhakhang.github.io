@@ -15,10 +15,9 @@
 <meta property="twitter:card" content="{{page.banner}}">
 <meta property="twitter:url" content="{{site.web-url}}{{page.url}}">
 <meta property="twitter:title" content="{{page.title}}">
-<meta property="twitter:audio" content="{{page.audio}}">
 <meta property="twitter:description" content="{{page.intro}}">
 <meta property="twitter:image" content="{{page.banner}}">
-
+<!-- Twitter  Ends-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900"> 
     <link rel="stylesheet" href="{{site.baseurl}}/assets/fonts/icomoon/style.css">
@@ -31,7 +30,6 @@
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/aos.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
     <link rel="icon" href="{{site.baseurl}}/assets/images/logo-title-sm.png">
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-B86YRDLTZ4"></script>
 <script>
