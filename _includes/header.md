@@ -3,6 +3,20 @@
   <head>
     <title>Jakhang</title>
     <meta charset="utf-8">
+    <!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{site.web-url}}{{page.url}}">
+<meta property="og:title" content="{{page.title}}">
+<meta property="og:description" content="{{page.intro}}">
+<meta property="og:image" content="{{page.banner}}">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="{{page.banner}}">
+<meta property="twitter:url" content="{{site.web-url}}{{page.url}}">
+<meta property="twitter:title" content="{{page.title}}">
+<meta property="twitter:description" content="{{page.intro}}">
+<meta property="twitter:image" content="{{page.banner}}">
+
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900"> 
     <link rel="stylesheet" href="{{site.baseurl}}/assets/fonts/icomoon/style.css">
