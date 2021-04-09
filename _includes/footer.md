@@ -13,8 +13,9 @@
               <div class="col-md-12">
                 <h3 class="footer-heading mb-4">Follow Us</h3>
                 <div>
-                  <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                  <a href="https://www.facebook.com/sharer/sharer.php?u={{site.web-url}}{{page.url}}
+" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                  <a href="http://twitter.com/share?url={{site.web-url}}{{page.url}}&text={{page.title}}&via={{page.author}}" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
                   <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
                   <a href="#" class="pl-3 pr-3"><span class="icon-rss"></span></a>
                 </div>
