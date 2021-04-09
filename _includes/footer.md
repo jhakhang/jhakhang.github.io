@@ -17,7 +17,7 @@
 " class="pl-0 pr-3"><span class="icon-facebook"></span></a>
                   <a href="http://twitter.com/share?url={{site.web-url}}{{page.url}}&text={{page.title}}&via={{page.author}}" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
                   <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-rss"></span></a>
+                  <a href="{{site.web-url}}/rss.xml" class="pl-3 pr-3"><span class="icon-rss"></span></a>
                 </div>
               </div>
             </div>
