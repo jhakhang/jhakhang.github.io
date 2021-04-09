@@ -5,9 +5,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="{{ site.lang }}">
 
     <channel>
-		<atom:link href="https://dranyen.s3.amazonaws.com/podcast-apple.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="https://jhakhang.s3.amazonaws.com/podcast-apple.xml" rel="self" type="application/rss+xml" />
 		<title>{{ site.title }}</title>
-		<link>https://dranyen.s3.amazonaws.com/</link>
+		<link>https://jhakhang.s3.amazonaws.com/</link>
 		<language>{{ site.lang }}</language>
         <copyright>&#xA9; {{ site.time | date: "%Y" }} {{ site.title }}</copyright>
 		<itunes:subtitle>{{ site.subtitle | xml_escape }}</itunes:subtitle>
