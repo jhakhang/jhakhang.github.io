@@ -6,6 +6,9 @@
 {% for post in site.posts limit:1 %}  
             <h2 class="text-white font-weight-light mb-2 display-4">{{post.title}}</h2>
             <h3>{{post.contributor}}</h3>
+            <hr style="height:2px; border-bottom:3px solid red">
+            <h2 class="text-white font-weight-light mb-2 display-4">{{post.title-en}}</h2>
+            <h3>{{post.contributor-en}}</h3>
             <div class="text-white mb-4"><span class="text-white-opacity-05"><small>By {{post.author}} | {{post.date}} | {{post.duration}}</small></span></div>
             <p><a href="{{post.url}}" class="btn btn-primary btn-sm py-3 px-4 small">More</a></p>
             <div class="player">
@@ -19,5 +22,5 @@
         </div>
       </div>
     </div>  
-}
+
 
