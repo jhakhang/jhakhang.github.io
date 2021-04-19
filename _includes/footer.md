@@ -6,11 +6,10 @@
             <div class="mb-5">
               <h3 class="footer-heading mb-4">ངའི་སྐོར།</h3>
               <p>ཇ་ཁང་ནི་དུས་ནས་དུས་སུ་གྲོགས་པོ་ཚོ་ལྷན་འཛོམས་ཀྱིས། བོད་རིགས་མང་ཚོགས་ཀྱི་དོ་དབྱིངས་ཡོད་སའི་རྒྱལ་སྤྱིའི་གནད་དོན་དང་སྤྱི་ཚོགས་ཀྱི་འགྱུར་འགྲོས་སྐོར་ལ་གྲོས་བསྡུར་བྱེད་སའི་གླེང་སྟེགས་ཤིག་ཡིན། འདི་རུ་ང་ཚོས་བོད་པའི་སྤྱི་ཚོགས་ཁྱོན་ཡོངས་ལ་ཤུགས་རྐྱེན་དང་བག་ཆགས་གཏིང་ཟབ་འཇོག་གཞིའི་སྒྱུ་རྩལ་དང་རིག་གཞུང་། ཆབ་སྲིད་ནས་སྤྱི་ཚོགས་བར་གྱི་གཞི་རྒྱ་ཆེ་བའི་བརྗོད་དོན་སྣ་མང་ཐོག་གོ་བསྡུར་དང་ཁ་བརྡ་བྱེད་ཀྱི་ཡོད།</p>
+                 <p>Jhakhang is a venue where a group of friends get together from time to time to discuss global issues and social phenomena that might interest Tibetan audiences. From art and culture to politics and society, we discuss a wide range of topics that have implications and consequences for the Tibetan world.</p>
             </div>
             <div class="mb-5">
                 <div class="col-lg-8 mb-5 mb-lg-0">
-                  <p>Jhakhang is a venue where a group of friends get together from time to time to discuss global issues and social phenomena that might interest Tibetan audiences. From art and culture to politics and society, we discuss a wide range of topics that have implications and consequences for the Tibetan world.</p>
-                </div>
             <div class="row">
               <div class="col-md-12">
                 <h3 class="footer-heading mb-4">Follow Us</h3>
