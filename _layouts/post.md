@@ -27,11 +27,12 @@ layout: post
           {{content}}
         </div>
         <div class="col-md-7">
-           {% include disqus.md %}
+          <!-- {% include disqus.md %} -->
         </div>
       </div>
     </div>
     <div class="site-section bg-light">
+      <!--
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-12 text-center">
@@ -40,6 +41,7 @@ layout: post
         </div>
         {% include related-posts-2.md %}
       </div>
+    -->
     </div>
     
 
