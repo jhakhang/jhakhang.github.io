@@ -15,7 +15,7 @@ layout: post
           </div>
         </div>
       </div>
-    </div>    
+    </div>
     <div class="container site-section">  
       <div class="player mb-5">
         <audio id="player2" preload="none" controls style="max-width: 100%">

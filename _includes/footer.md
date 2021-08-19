@@ -11,7 +11,7 @@
                -->
             </div>
             <div class="mb-5">
-                <div class="col-lg-8 mb-5 mb-lg-0">
+                <div class="col-lg-10 mb-7 mb-lg-0">
             <div class="row">
               <div class="col-md-12">
                 <h3 class="footer-heading mb-4">Tell your friends about us.</h3>
