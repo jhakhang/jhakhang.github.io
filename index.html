@@ -17,12 +17,13 @@ audio: https://jhakhang.s3.amazonaws.com/jhakhang-1.mp3
         <div class="row" data-aos="fade-up">
    {% for post in site.posts %}
 <div class="col-md-4 mb-5">
-  <div class="card">
+  <div class="card" data-aos="fade-up">
   <img class="card-img-top" src="{{post.banner}}" alt="Card image cap">
   <div class="card-body">
     <h4 class="card-title">{{post.title-en}}</h4>
-    <p class="card-text">{{post.contributor-en}}</p>
-    <a href="{{post.url}}" class="">Episode {{post.episode}}</a>
+   <span class="icon-microphone h4"></span> <i class="card-text">{{post.contributor-en}}</i>
+    <br>
+    <a href="{{post.url}}" class="btn btn-primary">Episode {{post.episode}}</a>
   </div>
 </div>
 </div>

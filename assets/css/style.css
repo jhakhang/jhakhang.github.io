@@ -1036,3 +1036,5 @@ audio::-webkit-media-controls-toggle-closed-captions-button{
 .site-section {
    font-size: 22px;
 }
+
+.card-text,.icon-microphone{vertical-align: middle;color:#525252;}
