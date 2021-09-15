@@ -14,13 +14,24 @@ audio: https://jhakhang.s3.amazonaws.com/jhakhang-1.mp3
             <h2 class="font-weight-bold ">ཉེ་ཆར།</h2>
           </div>
         </div>
+        <div class="row" data-aos="fade-up">
    {% for post in site.posts %}
- 
-       <div class="d-block d-md-flex podcast-entry bg-white mb-5" data-aos="fade-up">
+<div class="col-md-4 mb-5">
+  <div class="card">
+  <img class="card-img-top" src="{{post.banner}}" alt="Card image cap">
+  <div class="card-body">
+    <h4 class="card-title">Episode {{post.episode}}: {{post.title-en}}</h4>
+    <p class="card-text">{{post.contributor-en}}</p>
+    <a href="{{post.url}}" class="">གླེང་མོལ་ལེ་ཚན། {{post.episode}}</a>
+  </div>
+</div>
+</div>
+ <!--
+   <div class="d-block d-md-flex podcast-entry bg-white mb-5" data-aos="fade-up">
           <div class="image" style="background-image: url('{{post.banner}}');"></div>
           <div class="text">
 
-            <h3 class="font-weight-light"><a href="{{post.url}}">གླེང་མོལ་ལེ་ཚན། {{post.episode}} : {{post.title}}</a></h3>
+            <h3 class="font-weight-light"><a href="">གླེང་མོལ་ལེ་ཚན། {{post.episode}} : {{post.title}}</a></h3>
             <h4>{{post.contributor}}</h4>
             <h3 class="font-weight-light"><a href="{{post.url}}">Episode  {{post.episode}} : {{post.title-en}}</a></h3>
             <h4>{{post.contributor-en}}</h4>
@@ -40,7 +51,11 @@ audio: https://jhakhang.s3.amazonaws.com/jhakhang-1.mp3
 
           </div>
         </div>
+
+   --> 
+
   {% endfor %}
+  </div>
        
       </div>
       <!--
