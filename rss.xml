@@ -20,7 +20,7 @@
 			<itunes:name>{{ site.author }}</itunes:name>
 			<itunes:email>{{ site.email }}</itunes:email>
 		</itunes:owner>
-        <itunes:image href="{{ site.web-url }}/{{post.cover}}" />
+        <itunes:image href="{{ site.web-url }}/{{site.thumbnail}}" />
 		<itunes:category text="Society &amp; Culture" />
         <itunes:category text="Education">
             <itunes:category text="Community" />
