@@ -6,7 +6,7 @@ web-url: https://jhakhang.com
 description: "Jakhang Podcast"
 author: jhakhang
 thumbnail: "/assets/images/thumbnail-spotify.jpg"
-email: jakhang@gmail.com
+email: jhakhang@gmail.com
 description: Jhakhang is a venue where a group of friends get together from time to time to discuss global issues and social phenomena that might interest Tibetan audiences. From art and culture to politics and society, we discuss a wide range of topics that have implications and consequences for the Tibetan world.
 lang: bo
 copyright: "&#xA9; 2020"
@@ -14,7 +14,6 @@ copyright: "&#xA9; 2020"
 #google tracking code
 # gtag: 'G-HMK4JHPST9' --- Old
 gtag: ' '
-
 #RSS
 googleplayownnder: jhakhang@gmail.com
 googleplayownauthor: jhakhang
