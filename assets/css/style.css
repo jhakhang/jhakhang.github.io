@@ -460,10 +460,10 @@ a {
     bottom: -250px;
     width: 90%; }
   .site-blocks-cover, .site-blocks-cover .row {
-    min-height: 600px;
+    min-height: 800px;
     height: calc(100vh); }
   .site-blocks-cover.inner-page-cover, .site-blocks-cover.inner-page-cover .row {
-    min-height: 600px;
+    min-height: 193px;
     height: calc(30vh); }
   .site-blocks-cover h2, .site-blocks-cover h3, .site-blocks-cover h4, .site-blocks-cover h5 {
     color: #fff; }
@@ -1038,3 +1038,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button{
 }
 
 .card-text,.icon-microphone{vertical-align: middle;color:#525252;}
+.brand-icon{
+  font-size: 3em
+}
+#find-us div{display:inline;}

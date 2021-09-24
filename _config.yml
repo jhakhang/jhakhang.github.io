@@ -1,15 +1,17 @@
 
 
 # Site settings
-title: Jakhnag
+title: Jhakhang
 web-url: https://jhakhang.com
-description: "Jakhang Podcast"
-author: jhakhang
+description: "Jhakhang Podcast"
+author: Jhakhang
 thumbnail: "/assets/images/thumbnail-spotify.jpg"
 email: jhakhang@gmail.com
 description: Jhakhang is a venue where a group of friends get together from time to time to discuss global issues and social phenomena that might interest Tibetan audiences. From art and culture to politics and society, we discuss a wide range of topics that have implications and consequences for the Tibetan world.
 lang: bo
 copyright: "&#xA9; 2020"
+soundcloud: "https://soundcloud.com/jhakhang"
+amazon: ""
 
 #google tracking code
 # gtag: 'G-HMK4JHPST9' --- Old
