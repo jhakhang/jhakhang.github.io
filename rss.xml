@@ -14,7 +14,7 @@
         <itunes:author>{{ site.author }}</itunes:author>
          <itunes:email>{{ site.email }}</itunes:email>
 		<itunes:summary>{{ site.description | xml_escape }}</itunes:summary>
-        <description>{{ site.description | xml_escape }}</description>
+        <description>{{ site.description | xml_escape }}་ || {{ site.description-bo | xml_escape }}</description>
 		<webMaster>{{ site.email }} ({{ site.author }})</webMaster>
         <itunes:owner>
 			<itunes:name>{{ site.author }}</itunes:name>
