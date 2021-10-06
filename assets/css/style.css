@@ -1037,9 +1037,15 @@ audio::-webkit-media-controls-toggle-closed-captions-button{
    font-size: 22px;
 }
 
-.card-text,.icon-microphone{vertical-align: middle;color:#525252;}
+.card-text,.icon-microphone{vertical-align: middle;}
 .brand-icon{
   font-size: 3em
 }
 #find-us div{display:inline;}
+.card-text{font-size: 15px;color:lightgray;}
 .brand-badge{width:150px; padding: 10px;float: right}
+.card .btn{
+  border:1px solid #e97ac2;
+  color:#993b75;
+}
+.card .btn:hover {background:#993b75;color:white;}
