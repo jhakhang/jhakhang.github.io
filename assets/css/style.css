@@ -1042,3 +1042,4 @@ audio::-webkit-media-controls-toggle-closed-captions-button{
   font-size: 3em
 }
 #find-us div{display:inline;}
+.brand-badge{width:150px; padding: 10px;float: right}
