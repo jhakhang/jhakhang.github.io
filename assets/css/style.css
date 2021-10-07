@@ -1043,7 +1043,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button{
 }
 #find-us div{display:inline;}
 .card-text{font-size: 15px;color:lightgray;}
-.brand-badge{width:150px; padding: 10px;float: right}
+.brand-badge{padding: 10px;}
 .card .btn{
   border:1px solid #e97ac2;
   color:#993b75;

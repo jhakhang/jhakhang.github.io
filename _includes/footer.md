@@ -13,19 +13,21 @@
           </div>
           <div class="col-lg-8 mb-5 mb-lg-0">
               <div class="row">
-                <div class="col-md-12">
-                     <h3 class="footer-heading mb-4 text-center">find us on: </h3>
+                <div class="col-md-12 ">
+                  <h3 class="footer-heading mb-4 text-center">Find us on: </h3>
+                </div>
+                <div class="col-md-12 col-sm-3 justify-content-center">
                    <a href="{{site.spotify}}">
-                    <img src="{{site.baseurl}}/assets/images/badges/badge-spotify.png" class="img-responsive brand-badge">
+                    <img src="{{site.baseurl}}/assets/images/badges/badge-spotify.png" class="img-fluid brand-badge">
                   </a>
                  <a href="{{site.google-podcast}}">
-                  <img src="{{site.baseurl}}/assets/images/badges/badge-googlepodcasts.png" class="img-responsive brand-badge">
+                  <img src="{{site.baseurl}}/assets/images/badges/badge-googlepodcasts.png" class="img-fluid brand-badge">
                  </a>
                  <a href="{{site.soundcloud}}">
-                  <img src="{{site.baseurl}}/assets/images/badges/badge-soundcloud.png" class="img-responsive brand-badge">
+                  <img src="{{site.baseurl}}/assets/images/badges/badge-soundcloud.png" class="img-fluid brand-badge">
                  </a>
                  <a href="{{site.amazon}}">
-                  <img src="{{site.baseurl}}/assets/images/badges/badge-amazonmusic.png" class="img-responsive brand-badge">
+                  <img src="{{site.baseurl}}/assets/images/badges/badge-amazonmusic.png" class="img-fluid brand-badge">
                 </a>
               </div>
             </div>
