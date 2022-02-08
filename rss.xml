@@ -7,7 +7,7 @@
     <channel>
 		<atom:link href="https://jhakhang.s3.amazonaws.com/podcast-apple.xml" rel="self" type="application/rss+xml" />
 		<title>{{ site.title }}</title>
-		<link>https://jhakhang.s3.amazonaws.com/</link>
+		<link>https://jhakhangcom/</link>
 		<language>{{ site.lang }}</language>
         <copyright>&#xA9; {{ site.time | date: "%Y" }} {{ site.title }}</copyright>
 		<itunes:subtitle>{{ site.subtitle | xml_escape }}</itunes:subtitle>
