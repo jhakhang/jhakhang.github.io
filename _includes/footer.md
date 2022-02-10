@@ -29,6 +29,9 @@
                  <a href="{{site.amazon}}">
                   <img src="{{site.baseurl}}/assets/images/badges/badge-amazonmusic.png" class="img-fluid brand-badge">
                 </a>
+                <a href="{{site.apple-podcast}}">
+                  <img src="{{site.baseurl}}/assets/images/badges/badge-apple.png" class="img-fluid brand-badge">
+                </a>
               </div>
             </div>
               <!--
