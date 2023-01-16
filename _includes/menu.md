@@ -5,7 +5,7 @@
                     <a href="{{site.baseurl}}index.html">ཁྱིམ་</a>
                   </li>
                   <li><a href="{{site.baseurl}}about.html">ངའི་སྐོར།</a></li>
-                  <li><a href="{{site.baseurl}}banner.html">གསལ་བསྒྲགས།</a></li>
+                  <li><a href="{{site.baseurl}}banner.html"> གསལ་བསྒྲགས།</a></li>
                   <!--
                   <li class="has-children">
                     <a href="#">Dropdown</a>

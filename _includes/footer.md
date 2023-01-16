@@ -90,6 +90,10 @@
                 });
                 }
             });
+
+
+
+setShareLinks(); /* call to social share function in scrpt.js */
     </script>
   <script src="{{site.baseurl}}/assets/js/main.js"></script>
   <script id="dsq-count-scr" src="//jhakhang-com.disqus.com/count.js" async></script>

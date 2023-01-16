@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/aos.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
     <link rel="icon" href="{{site.baseurl}}/assets/images/logo-title-sm.png">
+    <script type="text/javascript" src="{{site.baseurl}}/assets/js/script.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-B86YRDLTZ4"></script>
 <script>
