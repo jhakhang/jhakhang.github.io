@@ -8,6 +8,7 @@ permalink: /post/feed.json
         {
           "title": "{{ post.title | xml_escape }}",
           "author": "{{ site.author }}",
+          "series": "{{ post.series }}",
           "subtitle": "{{ post.contributor-en | xml_escape }}",
           "summary": "{{ post.intro | xml_escape }}",
           "image": "{{site.web-url}}{{post.banner}}",
