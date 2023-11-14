@@ -4,7 +4,7 @@ permalink: /post/feed.json
 {
   "rss": {
     "channel": {
-      "item": [{% for post in site.posts reversed %}
+      "item": [{% for post in site.posts  %}
         {
           "title": "{{ post.title | xml_escape }}",
           "author": "{{ site.author }}",
@@ -13,6 +13,7 @@ permalink: /post/feed.json
           "image": "{{site.web-url}}{{post.banner}}",
           "audio": "{{ post.audio }}"
         }
+         
        {% unless forloop.last %},{% endunless %}{% endfor %}
       ]
     }
