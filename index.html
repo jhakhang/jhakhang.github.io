@@ -3,7 +3,6 @@ layout: default
 title: Jhakhang
 intro: "This Jhakhang is a venue where a group of friends get together from time to time to discuss global issues and social phenomena that might interest Tibetan audiences. From art and culture to politics and society, we discuss a wide range of topics that have implications and consequences for the Tibetan world." 
 banner: /assets/images/banner.jpg
-audio: https://jhakhang.s3.amazonaws.com/jhakhang-1.mp3
 ---
 {% include slider.md %}
     <div class="site-section bg-light">
@@ -13,10 +12,27 @@ audio: https://jhakhang.s3.amazonaws.com/jhakhang-1.mp3
           <div class="col-md-12 text-center">
             <h2 class="font-weight-bold ">ཉེ་ཆར།</h2>
           </div>
+      <div class="col-md-12 pull-center text-center">
+        <button class="btn btn-small btn-primary" data-toggle="portfilter" data-target="all">
+          All
+        </button>
+        <button class="btn btn-small btn-primary" data-toggle="portfilter" data-target="finance">
+         Finance
+        </button>
+        <button class="btn btn-small btn-primary" data-toggle="portfilter" data-target="gyallo">
+          Gyallo
+        </button>
+        <button class="btn btn-small btn-primary" data-toggle="portfilter" data-target="Social Movement">
+          Social Movement
+        </button>
+        <button class="btn btn-small btn-primary" data-toggle="portfilter" data-target="Culture/Tradition">
+        Culture/Tradition
+        </button>
+      </div>
         </div>
         <div class="row" data-aos="fade-up">
-   {% for post in site.posts %}
-<div class="col-md-4 mb-5">
+{% for post in site.posts %}
+<div class="col-md-4 mb-5"  data-tag="{{post.series}}">
   <div class="card" data-aos="fade-up">
   <img class="card-img-top" src="{{post.banner}}" alt="Card image cap">
   <div class="card-body">

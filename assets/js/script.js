@@ -1,7 +1,4 @@
 
-
-
-
 function socialWindow(url) {
   var left = (screen.width - 570) / 2;
   var top = (screen.height - 570) / 2;
@@ -31,3 +28,4 @@ function setShareLinks() {
     socialWindow(url);
   })
 }
+
