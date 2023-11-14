@@ -9,18 +9,18 @@
     {% if post.series == 'gyallo' %}
         <item>
             <title>{{ post.title | xml_escape }}</title>
-            <itunes:author>{{ site.author }}</itunes:author>
-            <itunes:subtitle>Contributor- {{ post.contributor-en | xml_escape }}</itunes:subtitle>
-            <itunes:summary>{{ post.intro | xml_escape }}</itunes:summary>
-            <itunes:image href="{{site.web-url}}{{post.banner}}" />
+            <author>{{ site.author }}</author>
+            <subtitle>Contributor- {{ post.contributor-en | xml_escape }}</subtitle>
+            <summary>{{ post.intro | xml_escape }}</summary>
+            <image href="{{site.web-url}}{{post.banner}}" />
             <enclosure url="{{ post.audio }}" length="{{ post.length }}" type="audio/mp3"/>
             <guid isPermaLink="true">{{ site.web-url }}{{ site.baseurl }}{{ post.url }}</guid>
             <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-            <itunes:duration>{{ post.duration }}</itunes:duration>
-            <itunes:explicit>{{ post.explicit }}</itunes:explicit>
+            <duration>{{ post.duration }}</duration>
+            <explicit>{{ post.explicit }}</explicit>
             <description>{{ post.intro | xml_escape }}{{ post.intro-en | xml_escape }}</description>
-            <itunes:keywords>{{ post.keywords }}</itunes:keywords>
-            <itunes:block>{{ post.block }}</itunes:block>
+            <keywords>{{ post.keywords }}</keywords>
+            <block>{{ post.block }}</block>
 		</item>
     {% endif %}
 {% endfor %}
