@@ -2,10 +2,10 @@
                 <div class="d-inline-block ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
                 <ul class="site-menu js-clone-nav d-none">
                   <li>
-                    <a href="{{site.baseurl}}index.html">ཁྱིམ་</a>
+                    <a href="{{site.baseurl}}/index.html">ཁྱིམ་</a>
                   </li>
-                  <li><a href="{{site.baseurl}}about.html">ངའི་སྐོར།</a></li>
-                  <li><a href="{{site.baseurl}}banner.html"> གསལ་བསྒྲགས།</a></li>
+                  <li><a href="{{site.baseurl}}/about.html">ངའི་སྐོར།</a></li>
+                  <li><a href="{{site.baseurl}}/banner.html"> གསལ་བསྒྲགས།</a></li>
                   <!--
                   <li class="has-children">
                     <a href="#">Dropdown</a>

@@ -4,18 +4,13 @@
           <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
  <!-- slider content -->  
           <div>
-           
-           
             <h1>404</h1>
             <h2>Opps ! Page not found </h2>
             <h4>
              Uh-oh! We couldn't find the page you are looking for.
             </h4>
             <p>Please return back to home page</p>
-            <a href="./" class="btn btn-small btn-primary">Home</a>
-
-
-
+            <a href="{{site.baseurl}}/" class="btn btn-small btn-primary">Home</a>
           </div>
  <!--       
 {% for post in site.posts limit:1 %}  
